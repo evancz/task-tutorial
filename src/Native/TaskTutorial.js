@@ -22,7 +22,7 @@ Elm.Native.TaskTutorial.make = function(localRuntime) {
 
 
 	var getCurrentTime = Task.asyncFunction(function(callback) {
-		return callback(Time.now());
+		return callback(Date.now());
 	});
 
 
