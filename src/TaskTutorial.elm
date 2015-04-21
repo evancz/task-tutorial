@@ -11,7 +11,7 @@ blocks for [this tutorial](http://elm-lang.org/learn/Tasks.elm).
 
 import Native.TaskTutorial
 import Task exposing (Task)
-
+import Time exposing (Time)
 
 {-| Take in any Elm value and produce a task. This task will display the value
 in your browser's developer console.
